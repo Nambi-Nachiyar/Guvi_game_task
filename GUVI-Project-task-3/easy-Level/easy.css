@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(250deg,rgb(130, 245, 130),rgb(31, 136, 136) 50% 50%,rgb(250, 134, 221) 50%,rgb(89, 133, 255));
+}
+
+h2,h4{
+    color: rgb(215, 238, 10);
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+    letter-spacing: 2px;
+}
+h4{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#board{
+    width: 250px;
+    height: 250px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(107, 174, 238);
+    margin: 2.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color:rgb(215, 247, 103);
+}
+
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 500px;
+    
+}
+
+button{
+  padding: 10px;
+  background:linear-gradient(120deg ,rgb(154, 207, 154) 30%,pink 50%,darkviolet );
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 4px 4px 2px 6px;
+  cursor: pointer;
+}
+
+.correct{
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
+}
+.present{
+    background-color: #C9B459;
+    color: white;
+    border-color: white;
+}
+.absent{
+    background-color: #787C7E;
+    color:white;
+    border-color: white;
+
+}
+#answer{
+  color:rgb(71, 42, 236);
+  font-size: 26px;
+}
+
